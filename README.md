@@ -19,14 +19,14 @@ This is experimental and will help you [get started](https://developers.google.c
 3. Clone this repo into a local folder
 
 	```bash
-$ git clone git@github.com:miccheng/GAE-for-PHP-via-Vagrant.git gaephp
+$ git clone git://github.com/miccheng/GAE-for-PHP-via-Vagrant.git gaephp
 $ git submodule init
 $ git submodule update
 ```
 
 4. Start Vagrant
 
-	`cd` into the checked out folder to start the VM:
+	`cd` into the checked out folder (`./gaephp/`) to start the VM:
 
 	```bash
 $ vagrant up
