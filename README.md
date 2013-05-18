@@ -2,7 +2,7 @@
 
 ## Intro
 
-This will startup a VirtualBox Virtual Machine (VM) (running Ubuntu Server 64-bit 12.04) and install Google App Engine (GAE) for PHP.
+This will startup a VirtualBox Virtual Machine (VM) (running Ubuntu Server 64-bit 12.10) and install Google App Engine (GAE) for PHP.
 
 This is experimental and will help you [get started](https://developers.google.com/appengine/docs/php/gettingstarted/) with GAE for PHP.
 
