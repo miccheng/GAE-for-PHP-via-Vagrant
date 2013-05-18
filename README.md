@@ -50,7 +50,8 @@ $ vagrant ssh
 
 	```bash
 $ cd /usr/local/src/
-$ ./google_appengine/dev_appserver.py --host=0.0.0.0 --admin_host=0.0.0.0 --php_executable_path=/usr/bin/php-cgi /project/
+$ ./google_appengine/dev_appserver.py --host=0.0.0.0 --admin_host=0.0.0.0 \
+   --php_executable_path=/usr/bin/php-cgi /project/
 ```
 
 	*__Note__: It is important to use `--host=0.0.0.0` and `--admin_host=0.0.0.0` so that the GAE development server will be accessible from outside the VM.*
